@@ -55,15 +55,14 @@ button{
     background-color: white;
     border: 0;
 }
-
-@media screen and (max-height: 850px) {
+@media screen and (max-height: 840px) {
     #logo{
         position: relative;
         z-index: 1;
-        width: 200px;
+        width: 250px;
     }
     button img{
-        width: 200px;
+        width: 230px;
     }
     #left{
         position: absolute;
@@ -79,11 +78,12 @@ button{
         right: 0;
     }
 }
-@media screen and (min-height: 851px) {
+@media screen and (min-height: 841px) {
     
     button img{
         width: 300px;
     }
+    
     #buttons{
         position: relative;
         z-index: 1;
