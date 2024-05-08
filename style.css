@@ -55,6 +55,7 @@ button{
     background-color: white;
     border: 0;
 }
+
 @media screen and (max-height: 850px) {
     #logo{
         position: relative;
@@ -63,6 +64,19 @@ button{
     }
     button img{
         width: 200px;
+    }
+    #left{
+        position: absolute;
+        z-index: 1;
+        width: 200px;
+        bottom: 0;
+    }
+    #right{
+        position: absolute;
+        z-index: 1;
+        width: 100px;
+        bottom: 0;
+        right: 0;
     }
 }
 @media screen and (min-height: 851px) {
