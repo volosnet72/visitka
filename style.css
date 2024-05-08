@@ -56,11 +56,17 @@ button{
     border: 0;
 }
 @media screen and (max-height: 850px) {
+
     button img{
-        width: 250px;
+        width: 200px;
     }
 }
 @media screen and (min-height: 851px) {
+    #logo{
+        position: relative;
+        z-index: 1;
+        width: 200px;
+    }
     button img{
         width: 300px;
     }
